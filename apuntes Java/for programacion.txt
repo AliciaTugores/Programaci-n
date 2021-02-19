@@ -1,0 +1,15 @@
+FOR:
+1--> desde donde empieza 
+2--> hasta donde llega 
+3--> como aumenta (+1, +2....)
+
+FOR EACH:
+
+1--> tipo item 
+2--> array
+
+        int contador = 0;
+        for (Anclaje i : anclajes()) {
+            if (i.isOcupado() == false) {
+                return contador += 1;
+            }
